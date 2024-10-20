@@ -49,7 +49,7 @@ def back_fitting(response,data_frame):
             b[j]=linear_model(yy, df.iloc[:,j])[1]
         new_b=b[1]
         #exiting the loop if there are no more changes
-        if round(new_b,9)==round(old_b,9):
+        if round(new_b,6)==round(old_b,6):
             #printing the number of iterations needed
             print("\n the number of iterations needed",i*j)
             break
