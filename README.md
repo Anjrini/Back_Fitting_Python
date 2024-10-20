@@ -5,7 +5,7 @@ In scenarios where we need to calculate the coefficients of a multiple linear re
 The implementation has been done in Python using a function called back_fitting in the file bf.py.
 The variables needed for this function are "response" and "data frame". The "response" has to be supplied as a string name of the column and the data frame as a matrix of numerics (using the Pandas library). Unfortunately categortial variables has to be converted into numerics in advance before applying this function.
 
-The result is a vector containing all the coefficients of a multiple linear regression. The function also shows the number of iterations needed to converge. However, in scenarios where the convergance has not been reached, a message is going to appear in the console confirming that.
+The result is a vector containing all the coefficients of a multiple linear regression. The function also shows the number of iterations needed to converge. However, in scenarios where the convergence has not been reached, a message is going to appear in the console confirming that.
 
 Should you have any query, please feel free to contact me.
 
